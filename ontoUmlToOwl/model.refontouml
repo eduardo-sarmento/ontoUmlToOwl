@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<RefOntoUML:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RefOntoUML="http://nemo.inf.ufes.br/ontouml/refontouml" xmi:id="_M3iikBjXEem69PjmjN7I6A" name="Model">
+  <packagedElement xsi:type="RefOntoUML:Kind" xmi:id="_w-OF8SonEemOAfUfhmDSSg" name="Kind1" visibility="public"/>
+  <packagedElement xsi:type="RefOntoUML:Relator" xmi:id="_GVfPQSu5EembCc0yDxYWsA" name="Relator1" visibility="public"/>
+  <packagedElement xsi:type="RefOntoUML:Role" xmi:id="_HjDOkCu5EembCc0yDxYWsA" name="Role1" visibility="public">
+    <generalization xmi:id="_NDXcgCu5EembCc0yDxYWsA" general="_w-OF8SonEemOAfUfhmDSSg"/>
+  </packagedElement>
+  <packagedElement xsi:type="RefOntoUML:Role" xmi:id="_IxkQICu5EembCc0yDxYWsA" name="Role2" visibility="public">
+    <generalization xmi:id="_KGFMACu5EembCc0yDxYWsA" general="_HjDOkCu5EembCc0yDxYWsA"/>
+  </packagedElement>
+  <packagedElement xsi:type="RefOntoUML:Role" xmi:id="_JLDHICu5EembCc0yDxYWsA" name="Role3" visibility="public">
+    <generalization xmi:id="_LBqqgCu5EembCc0yDxYWsA" general="_HjDOkCu5EembCc0yDxYWsA"/>
+  </packagedElement>
+  <packagedElement xsi:type="RefOntoUML:Mediation" xmi:id="_NsJTwCu5EembCc0yDxYWsA" name="Mediation1" visibility="public" memberEnd="_NsJTwSu5EembCc0yDxYWsA _NsJTxCu5EembCc0yDxYWsA" navigableOwnedEnd="_NsJTwSu5EembCc0yDxYWsA _NsJTxCu5EembCc0yDxYWsA">
+    <ownedEnd xmi:id="_NsJTwSu5EembCc0yDxYWsA" name="relator1" type="_GVfPQSu5EembCc0yDxYWsA" association="_NsJTwCu5EembCc0yDxYWsA">
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_QruqUSu5EembCc0yDxYWsA" value="-1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_QruqUCu5EembCc0yDxYWsA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_NsJTxCu5EembCc0yDxYWsA" name="role1" type="_HjDOkCu5EembCc0yDxYWsA" isReadOnly="true" association="_NsJTwCu5EembCc0yDxYWsA">
+      <upperValue xsi:type="RefOntoUML:LiteralUnlimitedNatural" xmi:id="_Qrv4cSu5EembCc0yDxYWsA" value="1"/>
+      <lowerValue xsi:type="RefOntoUML:LiteralInteger" xmi:id="_Qrv4cCu5EembCc0yDxYWsA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</RefOntoUML:Model>

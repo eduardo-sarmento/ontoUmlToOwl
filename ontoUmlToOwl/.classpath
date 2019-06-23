@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.common/lib/owl/owlapi-bin.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.emf.common_2.9.0.v20130528-0742.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.emf.ecore_2.9.0.v20130528-0742.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.ocl_3.3.0.v20130610-1317.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.common/lib/eclipse-kepler-sr1/org.eclipse.ocl.ecore_3.3.0.v20130520-1222.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.emf.ecore.xmi_2.9.0.v20130528-0742.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/lpg.runtime.java_2.0.17.v201004271640.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.common/lib/eclipse-kepler-sr1/org.eclipse.ocl.uml_4.0.100.v20130909-1552.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.uml2.uml_4.1.0.v20130610-0712.jar"/>
+	<classpathentry kind="lib" path="/br.ufes.inf.nemo.ocl.pivot/libs/kepler/org.eclipse.uml2.uml.resources_4.1.0.v20130610-0712.jar"/>
+	<classpathentry kind="lib" path="/net.menthor.ocl.pivot/libs/kepler/org.eclipse.ocl.common_1.1.0.v20130531-0544.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
